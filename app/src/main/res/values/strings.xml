@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MarksApp</string>
+
+    <string name="gravitation">Gravitation</string>
+    <string name="chapter">98 Qs | Low Input High Output Chapter</string>
+    <string name="showing">Showing</string>
+    <string name="unattempted">Not Attempted</string>
+    <string name="attempted">Attempted</string>
+    <string name="empty_placeholder">Oops! We couldn’t find any question with the selected filters. Please try clearing them.</string>
+    <string name="you_got_it_right">You got it right  :)</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="next_question">Next</string>
+    <string name="wrong_answer">Wrong answer  :(</string>
+    <string name="solution">Solution:</string>
+    <string name="option_a">A</string>
+    <string name="option_b">B</string>
+    <string name="option_c">C</string>
+    <string name="option_d">D</string>
+    <string name="clear_filters">Clear Filters</string>
+    <string name="streak_text">You\'re on a streak !</string>
+    <string name="streak_sub_text">3 correct answers in a row</string>
+    <string name="view_solution">View Solution</string>
+    <string name="next_question_large">Next Question</string>
+</resources>

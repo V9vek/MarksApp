@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/questionListingFragment">
+
+    <fragment
+        android:id="@+id/questionListingFragment"
+        android:name="com.vivek.marksapp.presentation.question_listings.QuestionListingsFragment"
+        android:label="QuestionListingFragment"
+        tools:layout="@layout/fragment_question_listings">
+        <action
+            android:id="@+id/action_questionListingFragment_to_questionFragment"
+            app:destination="@id/questionFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.vivek.marksapp.presentation.question.QuestionFragment"
+        android:label="QuestionFragment"
+        tools:layout="@layout/fragment_question" >
+        <argument
+            android:name="questionId"
+            app:argType="string" />
+        <argument
+            android:name="questionNo"
+            app:argType="integer" />
+    </fragment>
+</navigation>

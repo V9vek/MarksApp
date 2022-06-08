@@ -12,6 +12,10 @@ Caching questions in local database and picking options and learning Physics �
 Showcasing Clean Code and MVVM Architecture, with SOLID principles
 
 
+## 📽 Video
+https://user-images.githubusercontent.com/40730402/172719775-40d14d79-718c-4dd9-b18c-71b2058cf745.mp4
+
+
 ## 📸 Screenshots
 |||||
 |:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |:-----------------------------------------: |
